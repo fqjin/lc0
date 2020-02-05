@@ -54,7 +54,7 @@ const std::unordered_map<std::string, std::unordered_set<std::string>>
         {{"go"},
          {"infinite", "wtime", "btime", "winc", "binc", "movestogo", "depth",
           "nodes", "movetime", "searchmoves", "ponder"}},
-	{{"dumpnode"}, {"moves"}},
+	    {{"dumpnode"}, {"moves"}},
         {{"start"}, {}},
         {{"stop"}, {}},
         {{"ponderhit"}, {}},

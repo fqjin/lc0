@@ -122,7 +122,7 @@ class EngineLoop : public UciLoop {
   void CmdUciNewGame() override;
   void CmdPosition(const std::string& position,
                    const std::vector<std::string>& moves) override;
-  void CmdDumpnNode(const std::vector<std::string>& moves) override;
+  void CmdDumpNode(const std::vector<std::string>& moves) override;
   void CmdGo(const GoParams& params) override;
   void CmdPonderHit() override;
   void CmdStop() override;
